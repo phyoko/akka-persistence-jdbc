@@ -22,4 +22,7 @@ wait 3306 MySQL
 wait 1521 Oracle
 wait 1433 SqlSever
 
+echo "SBT_OPTS=$SBT_OPTS"
+echo "JVM_OPTS=$JVM_OPTS"
+
 sbt test
