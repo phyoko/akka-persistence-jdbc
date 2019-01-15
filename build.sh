@@ -23,6 +23,9 @@ wait 1521 Oracle
 wait 1433 SqlSever
 
 echo "SBT_OPTS=$SBT_OPTS"
+cat /etc/sbt/sbtopts
+
 echo "JVM_OPTS=$JVM_OPTS"
+cat /etc/sbt/jvmopts
 
 sbt test
